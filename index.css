@@ -1,0 +1,176 @@
+.container {
+  max-width: 1280px;
+  max-height: 800px;
+  margin: 29px auto;
+  box-sizing: border-box;
+}
+.container .content .header {
+  width: 516px;
+  height: 87px;
+  margin-top: 29px;
+  margin-left: auto;
+  margin-bottom: 96px;
+  margin-right: auto;
+  background-color: #d94e09;
+  border-radius: 15px;
+  display: flex;
+}
+.container .content .header .header_left {
+  margin: 5px 16px 5px 58px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+.container .content .header .header_left .content {
+  width: 67px;
+  height: 67px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #fff;
+}
+.container .content .header .header_mid {
+  height: 32px;
+  margin: auto 0;
+}
+.container .content .header .header_right {
+  height: 18px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 33px;
+}
+.container .content .main {
+  margin: auto 10%;
+}
+.container .content .main .main_title {
+  font-size: 30px;
+  font-family: Midashi Go MB31 Pr6N;
+  position: relative;
+  border-bottom: 2px solid #000;
+}
+.container .content .main .main_title h2 {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.container .content .main .main_content {
+  font-family: Hiragino Kaku Gothic Pro;
+}
+.container .content .main .main_content ul {
+  list-style: none;
+  padding-left: 0;
+}
+.container .content .main .main_content .ul_list > li {
+  margin-top: 28px;
+  font-size: 20px;
+  color: red;
+}
+.container .content .main .main_content ul > li:before {
+  content: "-";
+  font-weight: 400;
+  color: #000;
+}
+.container .content .main .main_content .li {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+.container .content .main .main_content .li_item > p:last-child {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 29px;
+}
+.container .content .main .main_content .item_div {
+  display: flex;
+  color: #000;
+  margin-top: 23px;
+  margin-bottom: 20px;
+}
+.container .content .main .main_content .item_div .div_text {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.container .content .main .main_content .item_div .div_text p {
+  margin: 0px 0px 14px 0px;
+}
+.container .content .main .main_content .item_div .div_text .li_detail {
+  background-color: #f3f3f3;
+  font-size: 16px;
+  padding: 10px;
+}
+.container .content .main .main_content .item_div .div_text .li_detail .li_detail_title {
+  display: flex;
+}
+.container .content .main .main_content .item_div .div_text .li_detail .li_detail_title .numberCircle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: red;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.container .content .main .main_content .item_div .div_img {
+  position: relative;
+  margin-left: 15px;
+}
+.container .content .main .main_content .item_div .div_img img {
+  height: 286px;
+  width: 386px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .container .content .main {
+    margin: 0;
+  }
+  .container .content .main .main_title .main_content .item_div {
+    display: block;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container .content .main {
+    margin: 0;
+  }
+  .container .content .main .main_content .item_div {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container .content .header {
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .container .content .header .header_left {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .container .content .header .header_left .content {
+    width: 33px;
+    height: 33px;
+    margin: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #fff;
+  }
+  .container .content .header .header_left .content img {
+    width: 80%;
+    height: 50%;
+  }
+  .container .content .header .header_right {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .container .content .main {
+    margin: 0;
+  }
+  .container .content .main .main_content .item_div {
+    display: block;
+  }
+  .container .content .main .main_content .item_div .div_img {
+    margin-left: 0;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
